@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    display: flex;
+    height: 650px;
+}
+.color{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    direction: rtl;
+}
+h2,p{
+    color: white;
+}
+h4{
+    color: red;
+}
+.imag{
+    width: 50%;
+    background-image: url(../images/skyballon.webp);
+    background-size: cover;
+    opacity: 0.8;
+}
+.hp{
+    width: 100%;
+    height: 20px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.hp1{
+    /* margin-top: 10%; */
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.hp2{
+    /* margin-top: 10%; */
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.hp3{
+    /* margin-top: 10%; */
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.p1,.p2,.p2{
+    width: 80%;
+    height: 40px;
+    /* margin-top: 50px;
+    margin-right: 100px; */
+}
+.icon{
+    color: lightpink;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+   
+}
+ .fa-desktop{
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightpink;
+    background-color: white;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 634px; 
+     margin-top: 100px;
+}
+.fa-database{
+    /* width: 50px;
+    height: 50px; 
+    border: 2px soild lightpink;
+    background-color: white;
+    border-radius: 50%; */
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 634px;
+    margin-top: 100px;
+}
+.fa-camera{
+    /* width: 50px;
+    height: 50px;
+    border: 2px soild lightpink;
+    border-radius: 50%;
+    background-color: white; */
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 634px;
+    margin-top: 100px;
+}
