@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f4ef;
+}
+
+.accordion {
+  width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.item {
+  background: #f0ebe1;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.title {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background: #d4c3a3;
+  color: #5a3e1a;
+}
+
+.title span {
+  font-size: 20px;
+  color: #5a3e1a;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  padding: 0 20px;
+  background: #fff;
+}
+
+.content.show {
+  max-height: 200px;
+  padding: 10px 20px;
+}
